@@ -3,9 +3,12 @@ class StudentsController < ApplicationController
   
   def index
     @students = Student.all
+    render "index"
   end
 
   def show
+    # student_id = params[:id]
+    # @s = Student.find(student_id)
   end
 
   private
