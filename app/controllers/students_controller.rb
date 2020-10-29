@@ -7,8 +7,6 @@ class StudentsController < ApplicationController
   end
 
   def show
-    # student_id = params[:id]
-    # @s = Student.find(student_id)
   end
 
   private
